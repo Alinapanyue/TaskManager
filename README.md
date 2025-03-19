@@ -1,6 +1,6 @@
 # Task Manager App
 
-A simple task management application built with React Native and Expo.
+A simple task management application built with React Native and Expo, allowing users to manage their daily tasks efficiently.
 
 ## Features
 
@@ -14,7 +14,7 @@ A simple task management application built with React Native and Expo.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/TaskManager.git
+   git clone https://github.com/Alinapanyue/TaskManager.git
    cd TaskManager
    ```
 
@@ -33,15 +33,23 @@ A simple task management application built with React Native and Expo.
    - Press 'i' for iOS simulator
    - Press 'a' for Android emulator
 
+## Usage Guide
+
+- **Adding Tasks**: Enter your task in the input field at the top and press "Add"
+- **Completing Tasks**: Tap the circle next to a task to mark it as complete/incomplete
+- **Deleting Tasks**: Tap the "✖" button on the right of any task to remove it
+- **Task Status**: Completed tasks are shown with a filled circle and strikethrough text
+
 ## Technologies Used
 
-- React Native
-- Expo
-- TypeScript
-- React Hooks for state management
+- React Native - Core framework for building the mobile app
+- Expo - Development platform and build tools
+- TypeScript - For type-safe JavaScript code
+- React Hooks - For state management (useState)
 
 ## Project Structure
 
-- `app/(tabs)/index.tsx`: Main application component
-- Uses React Native's built-in components for UI
-- Implements local state management using useState
+- `app/(tabs)/index.tsx`: Main application component containing task management logic
+- Uses React Native's built-in components for a native UI experience
+- Implements local state management using useState for task data
+- Follows TypeScript best practices for type safety
